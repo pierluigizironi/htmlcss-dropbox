@@ -24,6 +24,11 @@ body {
   margin: 0 auto;
 }
 
+.container-main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .col {
   float: left;
 }
@@ -73,6 +78,23 @@ body {
 
 .txt-space {
   margin: 10px 0px;
+}
+
+.title-section {
+  font-size: 50px;
+}
+
+.circle {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: solid black 0.5px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.blue-circle {
+  border: solid #2c61ff 5px;
 }
 
 /* Header */
@@ -139,4 +161,14 @@ header {
 
 .icon-space {
   margin: 50px 0;
+}
+
+/* Business section plan */
+
+#dp-business-plan {
+  margin-top: 15%;
+}
+
+#plan-selection {
+  margin: 25px 0px;
 }
