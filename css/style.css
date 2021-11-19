@@ -23,3 +23,77 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+col {
+  float: left;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w30 {
+  width: 20%;
+}
+
+.inline-dsp {
+  display: inline;
+}
+
+.right-side {
+  text-align: right;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline;
+  margin: 0px 20px;
+}
+
+.btn-blue {
+  background-color: #2c61ff;
+  color: white;
+  display: inline-block;
+}
+
+.btn-small {
+  padding: 7px 25px;
+}
+
+/* Header */
+
+header {
+  background-color: #b4d0e7;
+  height: 500px;
+}
+
+.main-nav {
+  background-color: #fff;
+  padding: 30px 10px;
+  width: 100%;
+}
+
+.main-nav .col #nav-logo {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.main-nav .col ul {
+  display: inline;
+}
+
+.main-nav .col li {
+  display: inline;
+}
+
+.main-nav .col ul .nav-link {
+  color: rgb(29, 25, 25);
+  text-decoration: none;
+  padding: 0px 10px;
+  font-weight: 500;
+}
+
+.main-nav .col ul li .nav-link:hover {
+  text-decoration: underline;
+}
