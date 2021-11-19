@@ -20,7 +20,7 @@ body {
 /* Utilities */
 
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -47,7 +47,6 @@ col {
 .btn {
   text-decoration: none;
   display: inline;
-  margin: 0px 20px;
 }
 
 .btn-blue {
@@ -60,11 +59,27 @@ col {
   padding: 7px 25px;
 }
 
+.btn-large {
+  padding: 10px 25px;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
+
+.txt-small {
+  font-size: 13px;
+}
+
+.txt-space {
+  margin: 10px 0px;
+}
+
 /* Header */
 
 header {
   background-color: #b4d0e7;
-  height: 500px;
+  height: 700px;
 }
 
 .main-nav {
@@ -96,4 +111,20 @@ header {
 
 .main-nav .col ul li .nav-link:hover {
   text-decoration: underline;
+}
+
+/* Jumbotron */
+
+#jumbo-title {
+  font-size: 95px;
+  margin: 30px 0px;
+}
+
+#jumbo-left-txt {
+  width: 400px;
+  height: 200px;
+}
+
+#jumbo-text {
+  margin-bottom: 20px;
 }
