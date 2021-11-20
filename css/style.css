@@ -37,6 +37,14 @@ body {
   width: 70%;
 }
 
+.w60 {
+  width: 60%;
+}
+
+.w40 {
+  width: 40%;
+}
+
 .w30 {
   width: 30%;
 }
@@ -100,6 +108,10 @@ body {
   margin-bottom: 50px;
 }
 
+.padd-20-30 {
+  padding: 20px 30px;
+}
+
 .title-section {
   font-size: 50px;
 }
@@ -123,6 +135,14 @@ body {
 
 .fa-check {
   color: #2c61ff;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 /* Header */
@@ -197,6 +217,7 @@ header {
 
 #dp-business-plan {
   margin-top: 15%;
+  margin-bottom: 20px;
 }
 
 #plan-selection {
@@ -247,4 +268,23 @@ header {
 
 .plan-box .plan-description h4 {
   font-size: 17px;
+}
+/* Entreprise box */
+
+#entreprise-box {
+  width: 1000px;
+  border: solid 1px lightgrey;
+}
+
+#entreprise-box .btn {
+  margin-left: 30%;
+}
+
+#entreprise-box .w40 {
+  margin-top: 20px;
+}
+
+/* Partner find Section */
+
+#partnerfind {
 }
