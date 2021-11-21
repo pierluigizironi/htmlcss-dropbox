@@ -25,7 +25,7 @@ body {
 }
 
 .container-main {
-  max-width: 1400px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
@@ -39,6 +39,10 @@ body {
 
 .w60 {
   width: 60%;
+}
+
+.w45 {
+  width: 45%;
 }
 
 .w40 {
@@ -70,6 +74,12 @@ body {
   background-color: #2c61ff;
   color: white;
   display: inline;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
 }
 
 .btn-small {
@@ -274,6 +284,7 @@ header {
 #entreprise-box {
   width: 1000px;
   border: solid 1px lightgrey;
+  margin-bottom: 7%;
 }
 
 #entreprise-box .btn {
@@ -286,5 +297,16 @@ header {
 
 /* Partner find Section */
 
-#partnerfind {
+.partnerfind .col {
+  margin-right: 30px;
+}
+
+#partner-img {
+  width: 500px;
+  height: 420px;
+}
+
+.partnerfind .w45 {
+  padding-left: 50px;
+  padding-top: 30px;
 }
