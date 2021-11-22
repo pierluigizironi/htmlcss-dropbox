@@ -29,6 +29,8 @@ body {
   margin: 0 auto;
 }
 
+/* Columns */
+
 .col {
   float: left;
 }
@@ -45,6 +47,10 @@ body {
   width: 45%;
 }
 
+.w44 {
+  width: 44%;
+}
+
 .w40 {
   width: 40%;
 }
@@ -53,9 +59,15 @@ body {
   width: 30%;
 }
 
+.w28 {
+  width: 28%;
+}
+
 .w20 {
   width: 20%;
 }
+
+/* Text align */
 
 .right-side {
   text-align: right;
@@ -64,6 +76,8 @@ body {
 .center-side {
   text-align: center;
 }
+
+/* Buttons */
 
 .btn {
   text-decoration: none;
@@ -98,9 +112,7 @@ body {
   text-decoration: underline;
 }
 
-.txt-small {
-  font-size: 13px;
-}
+/* Margin and Padding */
 
 .marg-10tb {
   margin: 10px 0px;
@@ -122,13 +134,7 @@ body {
   padding: 20px 30px;
 }
 
-.title-section {
-  font-size: 45px;
-}
-
-.txt-grey {
-  color: grey;
-}
+/* Fake Radiobox */
 
 .circle {
   display: inline-block;
@@ -147,12 +153,26 @@ body {
   color: #2c61ff;
 }
 
+/* Text Attributes */
+
+.title-section {
+  font-size: 45px;
+}
+
 h4 {
   font-size: 17px;
 }
 
 h3 {
   font-size: 27px;
+}
+
+.txt-small {
+  font-size: 13px;
+}
+
+.txt-grey {
+  color: grey;
 }
 
 /* Header */
@@ -324,4 +344,79 @@ header {
 
 .features-text {
   padding-right: 10px;
+}
+
+/* Team section */
+
+.team-title {
+  margin-top: 10%;
+}
+
+.team-img-size {
+  width: 120px;
+  filter: url(.team-img-size) invert(100%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.box-team {
+  width: 256px;
+  height: 256px;
+  display: inline-block;
+  position: relative;
+}
+
+.team .col.w44 {
+  padding: 55px 40px;
+}
+
+.img-highlight {
+  width: 160px;
+  display: inline;
+}
+
+.team .col.w44 {
+  background-color: #f5f5f5;
+  height: 512px;
+}
+
+.box-green {
+  background-color: #a2d39b;
+}
+
+.box-dred {
+  background-color: #61082b;
+}
+
+.box-blue {
+  background-color: #1f93ce;
+}
+
+.box-lred {
+  background-color: #fd1d1c;
+}
+
+.box-red {
+  background-color: #d5001f;
+}
+
+.box-celeste {
+  background-color: #b4d0e7;
+}
+
+.box-navy {
+  background-color: #112481;
+}
+
+.box-yellow {
+  background-color: #fcd831;
+}
+
+/* Trial section */
+
+.trial {
+  background-color: #b4d0e7;
+  height: 500px;
 }
