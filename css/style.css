@@ -158,6 +158,16 @@ body {
   color: #2c61ff;
 }
 
+.row-long {
+  border: 1px solid #dcdcde;
+  width: 100%;
+}
+
+.row-small {
+  border: 1px solid lightgrey;
+  width: 50px;
+}
+
 /* Text Attributes */
 
 .title-section {
@@ -281,11 +291,6 @@ header {
 
 .plan-description span {
   display: block;
-}
-
-.row-plan-description {
-  border: 1px solid lightgrey;
-  width: 50px;
 }
 
 .plan-description ul {
@@ -423,8 +428,31 @@ header {
 
 .trial {
   background-color: #b4d0e7;
+  margin-bottom: 7%;
 }
 
 .trial .container-main {
   padding: 100px 0px;
+}
+
+.trial .title-section {
+  color: #61082b;
+}
+
+/* FAQ Section*/
+
+.faq {
+  margin-bottom: 5%;
+}
+
+.question {
+  font-weight: 700;
+  position: relative;
+}
+
+.fa-chevron-down {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 30px;
 }
