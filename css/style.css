@@ -158,6 +158,15 @@ body {
   color: #2c61ff;
 }
 
+/* HR styling */
+
+.row-medium {
+  border: none;
+  height: 1px;
+  background-color: #dcdcde;
+  width: 100px;
+}
+
 .row-long {
   border: 1px solid #dcdcde;
   width: 100%;
@@ -174,8 +183,13 @@ body {
   font-size: 45px;
 }
 
+h5 {
+  font-size: 22px;
+  color: white;
+}
+
 h4 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 h3 {
@@ -455,4 +469,39 @@ header {
   text-align: right;
   position: absolute;
   right: 30px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000000;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+footer {
+}
+
+footer .container.clearfix .col.w20 ul li {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+footer .container ul li a {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer .container .col ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .container .col.w20 {
+  margin-bottom: 80px;
+}
+
+.change-language {
+  color: grey;
 }
