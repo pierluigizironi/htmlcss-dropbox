@@ -96,6 +96,11 @@ body {
   border: solid 1px black;
 }
 
+.btn-white-nobor {
+  background-color: white;
+  color: black;
+}
+
 .btn-small {
   padding: 7px 25px;
 }
@@ -418,5 +423,8 @@ header {
 
 .trial {
   background-color: #b4d0e7;
-  height: 500px;
+}
+
+.trial .container-main {
+  padding: 100px 0px;
 }
