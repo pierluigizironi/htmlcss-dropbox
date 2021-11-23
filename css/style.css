@@ -405,6 +405,12 @@ header {
   height: 256px;
   display: inline-block;
   position: relative;
+  transition: border 0.7s;
+}
+
+.box-team:hover {
+  border: 10px solid rgba(255, 255, 255, 0.7);
+  cursor: pointer;
 }
 
 .team .col.w44 {
